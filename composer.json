@@ -9,5 +9,24 @@
             "email": "puggan@sundragon.se"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "^8.0",
+        "ext-intl": "*",
+        "ext-iconv": "*",
+        "ext-ctype": "*",
+        "ext-mbstring": "*",
+        "ext-uuid": "^1.2"
+    },
+    "replace": {
+        "symfony/polyfill-php72": "1.24.0",
+        "symfony/polyfill-php73": "1.24.0",
+        "symfony/polyfill-php80": "1.24.0",
+        "symfony/polyfill-ctype": "1.24.0",
+        "symfony/polyfill-iconv": "1.24.0",
+        "symfony/polyfill-intl-grapheme": "1.24.0",
+        "symfony/polyfill-intl-idn": "1.24.0",
+        "symfony/polyfill-intl-normalizer": "1.24.0",
+        "symfony/polyfill-mbstring": "1.24.0",
+        "symfony/polyfill-uuid": "1.24.0"
+    }
 }
