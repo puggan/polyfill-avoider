@@ -1,0 +1,13 @@
+{
+    "name": "puggan/polyfill-avoider",
+    "description": "Empty replacer for none needed polyfills",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thorbjörn 'Puggan' Sundragon",
+            "email": "puggan@sundragon.se"
+        }
+    ],
+    "require": {}
+}
